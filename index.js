@@ -12,3 +12,8 @@ var = holiday;
 var = name;
 return '"Happy" + ${holiday.} + ${name}!"';
 }
+function (holidayCountdown){
+  var = holiday;
+  var =days;
+  return "It\'s + ${days} + "until" + ${holiday}!";
+}
