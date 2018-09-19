@@ -1,6 +1,7 @@
 
 function happyHolidays(){
-return Happy holidays!
+  var happyHolidays = "Happy holidays!";
+return happyHolidays;
 }
 function happyHolidaysTo(name){
   var happyHolidaysTo = '"Happy holidays," + ${name}!';
